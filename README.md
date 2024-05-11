@@ -12,7 +12,7 @@ For this dataset, the problem we're trying to solve, or better, the question we'
 How well can we predict the future sale price of a bulldozer, given its characteristics previous examples of how much similar bulldozers have been sold for?
 
 2. Data
-Looking at the dataset from Kaggle, you can you it's a time series problem. This means there's a time attribute to dataset.
+Looking at the dataset from Kaggle, we see it's a time series problem. This means there's a time attribute to dataset.
 
 In this case, it's historical sales data of bulldozers. Including things like, model type, size, sale date and more.
 
@@ -28,12 +28,10 @@ For this problem, Kaggle has set the evaluation metric to being root mean square
 To see how well our model is doing, we'll calculate the RMSLE and then compare our results to others on the Kaggle leaderboard.
 
 4. Features
-Features are different parts of the data. During this step, you'll want to start finding out what you can about the data.
+Features are different parts of the data. During this step, we'll want to start finding out what we can about the data.
 
 One of the most common ways to do this, is to create a data dictionary.
 
-For this dataset, Kaggle provide a data dictionary which contains information about what each attribute of the dataset means. You can download this file directly from the Kaggle competition page (account required) or view it on Google Sheets.
-
-With all of this being known, let's get started!
+For this dataset, Kaggle provide a data dictionary which contains information about what each attribute of the dataset means.
 
 First, we'll import the dataset and start exploring. Since we know the evaluation metric we're trying to minimise, our first goal will be building a baseline model and seeing how it stacks up against the competition.
